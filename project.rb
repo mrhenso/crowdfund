@@ -9,12 +9,12 @@ class Project
     
     def earn
          @fund += 25
-        # "#{@name} earned $25! Total is $#{@fund}."
+       puts "#{@name} earned $25! Total is $#{@fund}."
     end
     
     def give
         @fund -= 15
-        "#{@name} gave $15! Total is $#{@fund}."
+        puts "#{@name} gave $15! Total is $#{@fund}."
     end
     # def earn(usd)
     #     @fund += (usd)
