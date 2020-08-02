@@ -16,14 +16,6 @@ class Project
         @fund -= 15
         puts "#{@name} gave $15! Total is $#{@fund}."
     end
-    # def earn(usd)
-    #     @fund += (usd)
-    #     "#{@name} earned $#{@usd}! Total is $#{@fund}."
-    # end
-    # def give(usd)
-    #     @fund -= (usd)
-    #     "#{@name} gave $#{@usd}! Total is $#{@fund}."
-    # end
 
     def fund_needed
         @target - @fund

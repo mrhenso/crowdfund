@@ -20,14 +20,14 @@ class FundRequest
         puts""
 
         @projects.each do |project|
-        project.earn(500)
+        project.earn(25)
         puts project
         end
 
         puts ""
 
         @projects.each do |project|
-            project.give(250)
+            project.give(15)
             puts project
         end
      end   
